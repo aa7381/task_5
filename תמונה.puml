@@ -4,8 +4,21 @@ class motorcycle {
 + String stop()
 + String accelerate()
 }
+class car {
++ String start()
++ String stop()
++ String accelerate()
+}
+class bicycle {
++ String start()
++ String stop()
++ String accelerate()
+}
 
 
 
 Vehicle <|-- motorcycle
+Vehicle <|-- car
+Vehicle <|-- bicycle
+
 @enduml
