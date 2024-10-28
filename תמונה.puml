@@ -1,0 +1,11 @@
+@startuml
+class motorcycle {
++ String start()
++ String stop()
++ String accelerate()
+}
+
+
+
+Vehicle <|-- motorcycle
+@enduml
